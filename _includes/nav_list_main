@@ -31,14 +31,14 @@
             <ul>
                 {% for tag in site.tags %}
                     {% if tag[0] == "Filter" %}
-                        <li><a href="/tags/Filter" class="">Filter ({{tag[1].size}})</a></li>
+                        <li><a href="/tags/filter" class="">Filter ({{tag[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for tag in site.tags %}
                     {% if tag[0] == "Position" %}
-                        <li><a href="/tags/Position" class="">Position ({{tag[1].size}})</a></li>
+                        <li><a href="/tags/position" class="">Position ({{tag[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -46,7 +46,7 @@
             <ul>
                 {% for tag in site.tags %}
                     {% if tag[0] == "Book" %}
-                        <li><a href="/tags/Book" class="">Book ({{tag[1].size}})</a></li>
+                        <li><a href="/tags/book" class="">Book ({{tag[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
